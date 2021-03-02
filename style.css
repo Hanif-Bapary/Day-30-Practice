@@ -6,7 +6,6 @@ img{
     max-width: 100%;
 }
 /* Header-section */
-.my-header{}
 .my-header .navbar-brand {
     font-size: 26px;
     font-weight: 500;
@@ -73,7 +72,6 @@ img{
 .about-test-left {
     margin-top: 100px;
 }
-
 }
 .about-test-left p {
     margin-top: 25px;
@@ -118,7 +116,6 @@ img{
     padding: 19px;
 }
 /* Portpholio-section */
-.portpholio-section{}
 .portpholio-item{
     position: relative;
 }
@@ -140,37 +137,62 @@ img{
     cursor: pointer;
 }
 /* prizing-table-section */
-.prizing-table-section{}
-.p-section-title{}
-.p-item-caption{}
-.p-item-caption {
-    margin-left: 43px;
-    margin-bottom: 30px;
+.prizing-table-item{
+    padding: 40px;
+    transition: .4s;
 }
-.p-item-caption h1 {
-    font-size: 45px;
-    margin-bottom: 40px;
-}
-.prizing-item{
-    padding: 50px 10px;
-    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
-}
-.prizing-item ul{
+.prizing-table-item ul{
     list-style: none;
+    margin-left: 0;
+    padding-left: 0;
 }
-.prizing-item ul li {
-    font-size: 23px;
-    margin: 10px 0 15px 10px;
-    color: #767676;
+.prizing-table-item ul li {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-.prizing-item ul li span {
+.prizing-table-item ul li span {
+    width: 30px;
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 10px;
     color: #6278df;
-    margin-right: 15px;
-    font-size: 29px;
 }
 .prizing-item-btn a {
-    margin-top: 40px;
-    display: block;
-    width: 66%;
-    margin-left: 60px;
+    border: none;
+    font-size: 24px;
+    font-weight: 600;
+}
+.prizing-table-item:hover .prizing-item-btn a{
+    background: #000;
+    color: white;
+}
+/* Testimonial-section-start */
+.testionial-item span {
+    font-size: 70px;
+    color: #f0f0f0;
+}
+.testionial-bio{
+    width: 213px;
+}
+.testionial-bio img {
+    width: 70px;
+    margin-right: 15px;
+}
+.t-item-info{
+    text-align: left;
+    position: relative;
+    top: 5px;
+}
+/* Team-section-start */
+.team-section .card img {
+    width: 120px;
+    margin-top: -50px;
+    margin-left: 15px;
+}
+/* Contact-us-sectio */
+.form-item .card{
+    padding: 30px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
 }
